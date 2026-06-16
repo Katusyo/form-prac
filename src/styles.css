@@ -1,0 +1,10 @@
+.error {
+    color: red;
+    font-size: 0.8rem;
+    display: block;
+    min-height: 1rem;
+}
+
+.invalid {
+    border: 2px solid red;
+}

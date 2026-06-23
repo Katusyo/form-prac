@@ -6,8 +6,8 @@
     <title>Form Practice</title>
 </head>
 <body>
-    <div id="task-modal" class="hidden">
-        <form id="information" nonvalidate>
+    <div id="task-modal">
+        <form id="information" novalidate>
 
             <div class="form-group">
                 <label for="email">Email</label>
@@ -24,6 +24,7 @@
                 <input
                     type="text"
                     id="country"
+                    pattern="[A-Za-z\s]+"
                     required
                 >
                 <span class="error" id="country-error"></span>
